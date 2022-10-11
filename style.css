@@ -1,0 +1,107 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  display: block;
+  overflow-x: hidden;
+}
+
+.logo {
+  width: 50px;
+}
+
+nav {
+  background-color: white;
+}
+.navbar-brand img {
+  max-height: 50px;
+}
+.navbar-brand {
+  font-size: 24px;
+  text-transform: uppercase;
+  font-weight: 900;
+  color: #2596be;
+}
+nav ul li a {
+  color: #2596be;
+  font-size: 22px;
+  margin: auto 10px;
+}
+nav ul li a:hover {
+  color: #154c79;
+}
+
+section {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+section h1 {
+  text-transform: uppercase;
+  font-weight: 900;
+  color: #607d8b;
+  text-align: left;
+  margin-bottom: 20px;
+}
+section p {
+  font-size: 16px;
+  color: #607d8b;
+  font-weight: 300;
+}
+button {
+  max-width: 50%;
+  border-radius: 50px !important;
+}
+#hero .col {
+  justify-content: center; 
+  flex-direction: column;
+  display: flex;
+}
+#hero .img-col {
+  justify-content: flex-end; 
+  margin-top: 20px;
+}
+#hero img {
+  max-width: 100% !important;
+  width: 100%;
+}
+#hero .card {
+  box-shadow: 11px 7px 16px #f9f9f9;
+  border: 0;
+  text-align: center;
+}
+#hero .icon {
+  width: 50px;
+  margin-bottom: 20px;
+}
+
+#photos .photos {
+  margin-bottom: 50px;
+}
+
+.footer{
+  background: #2596be;
+  color:white;
+}
+  
+  .links ul {
+    list-style-type: none;
+  }
+  .links li a{
+      color: white;
+      transition: color .2s;
+    text-decoration:none;
+  }
+    .links li a:hover{
+        text-decoration:none;
+        color:#4180CB;
+        }
+  
+  .about-company i{
+    font-size: 25px;
+  }
+  .about-company  a{
+      color:white;
+      transition: color .2s;
+  }
+    .about-company  a:hover{
+      color:#4180CB
+    }
